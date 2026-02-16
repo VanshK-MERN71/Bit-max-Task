@@ -7,7 +7,5 @@ app.use(express.json());
 
 //routes
 app.use("/api/auth", authRoutes);
-app.use('/api',(req,res)=>{
-    res.json({sdsd:"sdsd"})
-})
+
 export default app;
